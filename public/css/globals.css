@@ -14,3 +14,14 @@ a {
 * {
   box-sizing: border-box;
 }
+.activeTab{
+  background-color: rgba(255,255,255,0.2) !important;
+  color: white;
+  z-index: -1;
+}
+
+.navs:hover{
+  background-color: rgba(255,255,255,0.2) !important;
+  color: white
+}
+

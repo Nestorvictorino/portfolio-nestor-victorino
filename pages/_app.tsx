@@ -25,7 +25,7 @@ const MyApp = ({ Component, pageProps }: AppPropsWithLayout) => {
       </Head>
 
       <Script id="bootstrap-cdn" src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" />
-      {getLayout(< Component {...pageProps} />)}
+      {(< Component {...pageProps} />)}
     </>
 
   )
