@@ -1,6 +1,8 @@
 import { ReactElement } from 'react';
 import Layout from '../components/layout';
 import AboutMe from '../components/pages/dashboard/aboutMe';
+import Projects from '../components/pages/dashboard/projects';
+import SocialMedia from '../components/pages/dashboard/socialMedia';
 import UpDashboard from '../components/pages/dashboard/upDashboard';
 
 const Home = () => {
@@ -10,6 +12,8 @@ const Home = () => {
         <UpDashboard />
       </div>
       <AboutMe/>
+      <SocialMedia/>
+      <Projects/>
     </div>
   )
 }

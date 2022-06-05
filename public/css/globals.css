@@ -44,3 +44,12 @@ a {
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
+.gapping{
+  gap:10rem
+}
+
+@media only screen and (max-width: 576px) {
+  .gapping{
+    gap: 2rem;
+  }
+}

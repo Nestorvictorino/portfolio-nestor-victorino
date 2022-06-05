@@ -1,15 +1,16 @@
 import React from 'react'
+import { CardsPropsI } from '../../../interfaces/pages/Cards/cards.interface'
 interface tecnoPropsI{
-    title: string
-    img: string
+   technologies:Array<CardsPropsI>
 }
-const Cards = ({technologies}:any) => {
+
+const Cards = ({technologies}:tecnoPropsI) => {
     return (
-        <div className='d-flex flex-row gap-3'>
+        <div className='d-flex flex-row row'>
             {technologies.map((el) => (
-                <div className='d-flex flex-column align-items-center gap-2 shakes'>
+                <div className='d-flex flex-column align-items-center gap-2 shakes col-md-3 col-6 mb-4'>
                     <div style={{ width: '7rem' }}>
-                        <img src={`/img/${el.img}`} alt="" style={{ width: '100%' }} />
+                        <img src={`/img/${el.img}`} alt="" style={{width:'100%'}}/>
                     </div>
                     <span className='fw-bold'>{el.title}</span>
                 </div>
