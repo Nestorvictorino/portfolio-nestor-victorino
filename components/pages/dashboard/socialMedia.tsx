@@ -12,19 +12,19 @@ const SocialMedia = () => {
                 <a href="https://www.linkedin.com/in/nestor-victorino-099a15174/" className='text-white'>
                     <span className='d-flex flex-column align-items-center justify-content-center' style={{ fontSize: '1rem' }}>
                         <FontAwesomeIcon icon={faLinkedinIn} style={{width:'5rem'}}/>
-                        <p>LinkedIn</p>
+                        {/* <p>LinkedIn</p> */}
                     </span>
                 </a>
                 <a href="https://github.com/Nestorvictorino" className='text-white'>
                     <span className='d-flex flex-column align-items-center justify-content-center' style={{ fontSize: '1rem' }}>
                         <FontAwesomeIcon icon={faGithub} style={{width:'5rem'}}/>
-                        <p>GitHub</p>
+                        {/* <p>GitHub</p> */}
                     </span>
                 </a>
                 <a href="https://www.instagram.com/nestorvictorino/" className='text-white'>
                     <span className='d-flex flex-column align-items-center justify-content-center' style={{ fontSize: '1rem' }}>
                         <FontAwesomeIcon icon={faInstagram} style={{width:'5rem'}}/>
-                        <p>Instagram</p>
+                        {/* <p>Instagram</p> */}
                     </span>
                 </a>
                 {/* <a href="https://github.com/Nestorvictorino" className='text-white' style={{ fontSize: '1.3rem' }} >

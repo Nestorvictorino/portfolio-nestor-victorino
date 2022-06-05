@@ -53,3 +53,8 @@ a {
     gap: 2rem;
   }
 }
+
+.linkVisit:hover{
+  background: #ddb146;
+  color: #fff;
+}
