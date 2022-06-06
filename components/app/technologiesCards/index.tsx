@@ -7,8 +7,8 @@ interface tecnoPropsI{
 const Cards = ({technologies}:tecnoPropsI) => {
     return (
         <div className='d-flex flex-row row'>
-            {technologies.map((el) => (
-                <div className='d-flex flex-column align-items-center gap-2 shakes col-md-3 col-6 mb-4'>
+            {technologies.map((el, i) => (
+                <div className='d-flex flex-column align-items-center gap-2 shakes col-md-3 col-6 mb-4' key={`techno${i}`}>
                     <div style={{ width: '7rem' }}>
                         <img src={`/img/${el.img}`} alt="" style={{width:'100%'}}/>
                     </div>
