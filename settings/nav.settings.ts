@@ -3,8 +3,8 @@ export const navSettings =[
         name: "Dashboard",
         path:"/"
     },
-    {
-        name:"Contact",
-        path: "/contact"
-    },
+    // {
+    //     name:"Contact",
+    //     path: "/contact"
+    // },
 ]

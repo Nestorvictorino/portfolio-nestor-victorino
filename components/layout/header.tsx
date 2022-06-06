@@ -16,11 +16,11 @@ const Header = ({ title }: HeaderLayoutPropsI) => {
                 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
                 <title>{title}</title>
             </Head>
-            <div className="d-flex flex-row align-items-center justify-content-between px-5 pt-3 pb-3 container" style={{borderBottom:'1px solid rgba(255, 255, 255, 0.4)'}}>
-                <div style={{ width: '8rem' }}>
+            <div className="d-flex flex-md-row flex-column align-items-center justify-content-between px-5 pt-3 pb-3 container" style={{borderBottom:'1px solid rgba(255, 255, 255, 0.4)'}}>
+                <div className='mb-md-0 mb-4 me-md-0 me-4' style={{ width: '8rem' }}>
                     <img src="/img/LogoSinFondoPNG.png" alt="" style={{width:'100%'}}/>
                 </div>
-                <ul className='d-flex flex-row mb-0 ms-4 text-white'>
+                <ul className='d-flex flex-row mb-0 ms-md-4 ms-0 text-white ps-0'>
                     {
                         navSettings.map((item, i) => {
                             return (
@@ -36,17 +36,6 @@ const Header = ({ title }: HeaderLayoutPropsI) => {
                     }
                 </ul>
             </div>
-
-            {/* <div className="row textos">
-                <div className="col-md-12">
-                    <h2 className="primera_linea">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
-                    <h3 className="segunda_linea">Lorem ipsum dolor sit amet consectetur.</h3>
-                    <div className="contenedor-btns">
-                        <a href="">Caracteristicas</a>
-                        <a href="">Comprar ahora!</a>
-                    </div>
-                </div>
-            </div> */}
         </React.Fragment>
     )
 }
