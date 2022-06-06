@@ -34,8 +34,8 @@ const Projects = () => {
                         <div style={{ width: '100%' }}>
                             <img src={`/img/${el.img}`} alt="" style={{ width: "100%" }} className='rounded' />
                         </div>
-                        <span className='mt-2 linkVisit cursor-pointer' style={{ borderRadius: '100px', padding: '5px 0px', width: '30%', textAlign: 'center', border: '2px solid #DDB146' }}><a href={`${el.link1}`} className='linkVisit' target={'_blank'} rel="noopener noreferrer">Visit</a></span>
-                        <span className='mt-2 linkVisit cursor-pointer mb-2' style={{ borderRadius: '100px', padding: '5px 0px', width: '30%', textAlign: 'center', border: '2px solid #DDB146' }}><a href={`${el.link2}`} className='linkVisit' target={'_blank'} rel="noopener noreferrer">Code</a></span>
+                        <span className='mt-2 linkVisit cursor-pointer' style={{ borderRadius: '100px', padding: '5px 0px', width: '30%', textAlign: 'center', border: '2px solid #DDB146' }}><a href={`${el.link1}`} className='linkVisit'>Visit</a></span>
+                        <span className='mt-2 linkVisit cursor-pointer mb-2' style={{ borderRadius: '100px', padding: '5px 0px', width: '30%', textAlign: 'center', border: '2px solid #DDB146' }}><a href={`${el.link2}`} className='linkVisit'>Code</a></span>
                     </div>
                 ))}
             </div>
