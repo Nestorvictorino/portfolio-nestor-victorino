@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import React from 'react'
@@ -18,7 +19,7 @@ const Header = ({ title }: HeaderLayoutPropsI) => {
             </Head>
             <div className="d-flex flex-md-row flex-column align-items-center justify-content-between px-5 pt-3 pb-3 container" style={{borderBottom:'1px solid rgba(255, 255, 255, 0.4)'}}>
                 <div className='mb-md-0 mb-4 me-md-0 me-4' style={{ width: '8rem' }}>
-                    <img src="/img/LogoSinFondoPNG.png" alt="" style={{width:'100%'}}/>
+                    <Image src="/img/logoSinFondoPNG.png" width={300} height={170}/>
                 </div>
                 <ul className='d-flex flex-row mb-0 ms-md-4 ms-0 text-white ps-0'>
                     {

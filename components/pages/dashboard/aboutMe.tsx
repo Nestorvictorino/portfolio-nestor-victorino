@@ -21,11 +21,11 @@ const AboutMe = () => {
         },
         {
             title:'React',
-            img:'React.WEBP'
+            img:'React.png'
         },
         {
             title:'NextJS',
-            img:'nextjs.WEBP'
+            img:'nextjs.png'
         },
         {
             title:'Bootstrap',
