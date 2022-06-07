@@ -21,7 +21,7 @@ const AboutMe = () => {
         },
         {
             title:'React',
-            img:'React.png'
+            img:'react.png'
         },
         {
             title:'NextJS',
